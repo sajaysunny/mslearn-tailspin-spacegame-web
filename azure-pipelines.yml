@@ -13,10 +13,10 @@ variables:
  buildConfiguration: 'Release'
 steps:
 - task: UseDotNet@2
- displayName: '5.0'
+ displayName: 'Use .NET SDK 5.0.402'
  inputs:
  packageType: sdk
- version: '5.0'
+ version: '5.0.402'
 - task: Npm@1
  displayName: 'Run npm install'
  inputs:
